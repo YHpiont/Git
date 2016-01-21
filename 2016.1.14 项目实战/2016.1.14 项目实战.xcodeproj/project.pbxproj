@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		04E541EA1C473154006B6BD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E541E91C473154006B6BD1 /* main.m */; };
 		04E541ED1C473154006B6BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E541EC1C473154006B6BD1 /* AppDelegate.m */; };
-		04E541F31C473154006B6BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E541F11C473154006B6BD1 /* Main.storyboard */; };
 		04E541F51C473154006B6BD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E541F41C473154006B6BD1 /* Images.xcassets */; };
-		04E541F81C473154006B6BD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E541F61C473154006B6BD1 /* LaunchScreen.xib */; };
 		04E542041C473154006B6BD1 /* _016_1_14_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E542031C473154006B6BD1 /* _016_1_14_____Tests.m */; };
 		04E542341C4738EF006B6BD1 /* PKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E542331C4738EF006B6BD1 /* PKBaseViewController.m */; };
 		04E542FC1C47434D006B6BD1 /* GCDCountdownTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E542E71C47434D006B6BD1 /* GCDCountdownTime.m */; };
@@ -78,8 +76,6 @@
 		04E543F81C4779F3006B6BD1 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E543AD1C4779F3006B6BD1 /* UIImageView+HighlightedWebCache.m */; };
 		04E543F91C4779F3006B6BD1 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E543AF1C4779F3006B6BD1 /* UIImageView+WebCache.m */; };
 		04E543FA1C4779F3006B6BD1 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E543B11C4779F3006B6BD1 /* UIView+WebCacheOperation.m */; };
-		04E544071C477A73006B6BD1 /* PKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E544061C477A73006B6BD1 /* PKHomeViewController.m */; };
-		04E5440A1C477CE1006B6BD1 /* PKLeftHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E544091C477CE1006B6BD1 /* PKLeftHeadView.m */; };
 		04E5441C1C47895D006B6BD1 /* 下载@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E5440D1C47895D006B6BD1 /* 下载@2x.png */; };
 		04E5441D1C47895D006B6BD1 /* 写评论@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E5440E1C47895D006B6BD1 /* 写评论@2x.png */; };
 		04E5441E1C47895D006B6BD1 /* 头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E5440F1C47895D006B6BD1 /* 头像@2x.png */; };
@@ -95,8 +91,6 @@
 		04E544281C47895D006B6BD1 /* 阅读@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E544191C47895D006B6BD1 /* 阅读@2x.png */; };
 		04E544291C47895D006B6BD1 /* 音乐@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E5441A1C47895D006B6BD1 /* 音乐@2x.png */; };
 		04E5442A1C47895D006B6BD1 /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E5441B1C47895D006B6BD1 /* 首页@2x.png */; };
-		04E5442D1C47950B006B6BD1 /* PKLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5442C1C47950B006B6BD1 /* PKLeftViewController.m */; };
-		04E545761C47A14B006B6BD1 /* PKLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E545751C47A14B006B6BD1 /* PKLeftTableView.m */; };
 		04E545A01C47A5E3006B6BD1 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5457A1C47A5E3006B6BD1 /* AFDownloadRequestOperation.m */; };
 		04E545A11C47A5E3006B6BD1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5457C1C47A5E3006B6BD1 /* AFHTTPRequestOperation.m */; };
 		04E545A21C47A5E3006B6BD1 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5457E1C47A5E3006B6BD1 /* AFHTTPRequestOperationManager.m */; };
@@ -115,9 +109,29 @@
 		04E545AF1C47A5E3006B6BD1 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5459B1C47A5E3006B6BD1 /* UIProgressView+AFNetworking.m */; };
 		04E545B01C47A5E3006B6BD1 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5459D1C47A5E3006B6BD1 /* UIRefreshControl+AFNetworking.m */; };
 		04E545B11C47A5E3006B6BD1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5459F1C47A5E3006B6BD1 /* UIWebView+AFNetworking.m */; };
-		04E545B41C47C6E0006B6BD1 /* PKLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E545B31C47C6E0006B6BD1 /* PKLeftTableViewCell.m */; };
 		04E545B61C47EE0F006B6BD1 /* PKLeft.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E545B51C47EE0F006B6BD1 /* PKLeft.plist */; };
-		04E545B91C48971F006B6BD1 /* PKLeftMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E545B81C48971F006B6BD1 /* PKLeftMusicView.m */; };
+		04ECEB1E1C48CF0C003EEB11 /* PKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB1D1C48CF0C003EEB11 /* PKHomeViewController.m */; };
+		04ECEB221C48CF15003EEB11 /* PKLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB211C48CF15003EEB11 /* PKLeftViewController.m */; };
+		04ECEB331C48D081003EEB11 /* PKLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB321C48D081003EEB11 /* PKLandingViewController.m */; };
+		04ECEB371C48D0F2003EEB11 /* PKThirdLandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB361C48D0F2003EEB11 /* PKThirdLandingView.m */; };
+		04ECEB411C48D5ED003EEB11 /* PKLeftHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB3A1C48D5ED003EEB11 /* PKLeftHeadView.m */; };
+		04ECEB421C48D5ED003EEB11 /* PKLeftMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB3C1C48D5ED003EEB11 /* PKLeftMusicView.m */; };
+		04ECEB431C48D5ED003EEB11 /* PKLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB3E1C48D5ED003EEB11 /* PKLeftTableView.m */; };
+		04ECEB441C48D5ED003EEB11 /* PKLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB401C48D5ED003EEB11 /* PKLeftTableViewCell.m */; };
+		04ECEB461C48DC3A003EEB11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ECEB451C48DC3A003EEB11 /* LaunchScreen.xib */; };
+		04ECEB491C48EE29003EEB11 /* PKEmailLandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB481C48EE29003EEB11 /* PKEmailLandingView.m */; };
+		04ECEB4D1C4B8EDB003EEB11 /* RegistratViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB4C1C4B8EDB003EEB11 /* RegistratViewController.m */; };
+		04ECEB651C4E267F003EEB11 /* RegistrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB641C4E267F003EEB11 /* RegistrationView.m */; };
+		04ECEB6E1C4E6276003EEB11 /* PKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB6D1C4E6276003EEB11 /* PKSettingViewController.m */; };
+		04ECEB711C4E62B4003EEB11 /* PKRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB701C4E62B4003EEB11 /* PKRadioViewController.m */; };
+		04ECEB741C4E62EA003EEB11 /* PKReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB731C4E62EA003EEB11 /* PKReadViewController.m */; };
+		04ECEB771C4E6330003EEB11 /* PKGoodProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB761C4E6330003EEB11 /* PKGoodProductsViewController.m */; };
+		04ECEB7A1C4E638B003EEB11 /* PKCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB791C4E638B003EEB11 /* PKCommunityViewController.m */; };
+		04ECEB981C508A6F003EEB11 /* PKFragmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB921C508A6F003EEB11 /* PKFragmentModel.m */; };
+		04ECEB9A1C508A6F003EEB11 /* NSArray+PKFragmentCelHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB971C508A6F003EEB11 /* NSArray+PKFragmentCelHeight.m */; };
+		04ECEBA01C508BA3003EEB11 /* PKFragmentTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB9D1C508BA3003EEB11 /* PKFragmentTable.m */; };
+		04ECEBA11C508BA3003EEB11 /* PKFragmentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEB9F1C508BA3003EEB11 /* PKFragmentTableCell.m */; };
+		04ECEBA41C508BE2003EEB11 /* PKFragmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECEBA31C508BE2003EEB11 /* PKFragmentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,9 +150,7 @@
 		04E541E91C473154006B6BD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E541EB1C473154006B6BD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04E541EC1C473154006B6BD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04E541F21C473154006B6BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E541F41C473154006B6BD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "2016.1.14 项目实战/Images.xcassets"; sourceTree = "<group>"; };
-		04E541F71C473154006B6BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04E541FD1C473154006B6BD1 /* 2016.1.14 项目实战Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2016.1.14 项目实战Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E542021C473154006B6BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E542031C473154006B6BD1 /* _016_1_14_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_016_1_14_____Tests.m"; sourceTree = "<group>"; };
@@ -278,10 +290,6 @@
 		04E543AF1C4779F3006B6BD1 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		04E543B01C4779F3006B6BD1 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		04E543B11C4779F3006B6BD1 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		04E544051C477A73006B6BD1 /* PKHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKHomeViewController.h; sourceTree = "<group>"; };
-		04E544061C477A73006B6BD1 /* PKHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKHomeViewController.m; sourceTree = "<group>"; };
-		04E544081C477CE1006B6BD1 /* PKLeftHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftHeadView.h; sourceTree = "<group>"; };
-		04E544091C477CE1006B6BD1 /* PKLeftHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftHeadView.m; sourceTree = "<group>"; };
 		04E5440D1C47895D006B6BD1 /* 下载@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载@2x.png"; sourceTree = "<group>"; };
 		04E5440E1C47895D006B6BD1 /* 写评论@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "写评论@2x.png"; sourceTree = "<group>"; };
 		04E5440F1C47895D006B6BD1 /* 头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像@2x.png"; sourceTree = "<group>"; };
@@ -297,10 +305,6 @@
 		04E544191C47895D006B6BD1 /* 阅读@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阅读@2x.png"; sourceTree = "<group>"; };
 		04E5441A1C47895D006B6BD1 /* 音乐@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐@2x.png"; sourceTree = "<group>"; };
 		04E5441B1C47895D006B6BD1 /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
-		04E5442B1C47950B006B6BD1 /* PKLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftViewController.h; sourceTree = "<group>"; };
-		04E5442C1C47950B006B6BD1 /* PKLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftViewController.m; sourceTree = "<group>"; };
-		04E545741C47A14B006B6BD1 /* PKLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftTableView.h; sourceTree = "<group>"; };
-		04E545751C47A14B006B6BD1 /* PKLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftTableView.m; sourceTree = "<group>"; };
 		04E545771C47A479006B6BD1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04E545791C47A5E3006B6BD1 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
 		04E5457A1C47A5E3006B6BD1 /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
@@ -340,11 +344,50 @@
 		04E5459D1C47A5E3006B6BD1 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		04E5459E1C47A5E3006B6BD1 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		04E5459F1C47A5E3006B6BD1 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		04E545B21C47C6E0006B6BD1 /* PKLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftTableViewCell.h; sourceTree = "<group>"; };
-		04E545B31C47C6E0006B6BD1 /* PKLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftTableViewCell.m; sourceTree = "<group>"; };
 		04E545B51C47EE0F006B6BD1 /* PKLeft.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PKLeft.plist; sourceTree = "<group>"; };
-		04E545B71C48971F006B6BD1 /* PKLeftMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftMusicView.h; sourceTree = "<group>"; };
-		04E545B81C48971F006B6BD1 /* PKLeftMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftMusicView.m; sourceTree = "<group>"; };
+		04ECEB1C1C48CF0C003EEB11 /* PKHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKHomeViewController.h; sourceTree = "<group>"; };
+		04ECEB1D1C48CF0C003EEB11 /* PKHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKHomeViewController.m; sourceTree = "<group>"; };
+		04ECEB201C48CF15003EEB11 /* PKLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftViewController.h; sourceTree = "<group>"; };
+		04ECEB211C48CF15003EEB11 /* PKLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftViewController.m; sourceTree = "<group>"; };
+		04ECEB311C48D081003EEB11 /* PKLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKLandingViewController.h; path = "登陆/PKLandingViewController.h"; sourceTree = "<group>"; };
+		04ECEB321C48D081003EEB11 /* PKLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKLandingViewController.m; path = "登陆/PKLandingViewController.m"; sourceTree = "<group>"; };
+		04ECEB351C48D0F2003EEB11 /* PKThirdLandingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKThirdLandingView.h; path = "登陆/view/PKThirdLandingView.h"; sourceTree = "<group>"; };
+		04ECEB361C48D0F2003EEB11 /* PKThirdLandingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKThirdLandingView.m; path = "登陆/view/PKThirdLandingView.m"; sourceTree = "<group>"; };
+		04ECEB391C48D5ED003EEB11 /* PKLeftHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftHeadView.h; sourceTree = "<group>"; };
+		04ECEB3A1C48D5ED003EEB11 /* PKLeftHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftHeadView.m; sourceTree = "<group>"; };
+		04ECEB3B1C48D5ED003EEB11 /* PKLeftMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftMusicView.h; sourceTree = "<group>"; };
+		04ECEB3C1C48D5ED003EEB11 /* PKLeftMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftMusicView.m; sourceTree = "<group>"; };
+		04ECEB3D1C48D5ED003EEB11 /* PKLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftTableView.h; sourceTree = "<group>"; };
+		04ECEB3E1C48D5ED003EEB11 /* PKLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftTableView.m; sourceTree = "<group>"; };
+		04ECEB3F1C48D5ED003EEB11 /* PKLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLeftTableViewCell.h; sourceTree = "<group>"; };
+		04ECEB401C48D5ED003EEB11 /* PKLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLeftTableViewCell.m; sourceTree = "<group>"; };
+		04ECEB451C48DC3A003EEB11 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = "2016.1.14 项目实战/LaunchScreen.xib"; sourceTree = "<group>"; };
+		04ECEB471C48EE29003EEB11 /* PKEmailLandingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKEmailLandingView.h; path = "左侧菜单/view/PKEmailLandingView.h"; sourceTree = "<group>"; };
+		04ECEB481C48EE29003EEB11 /* PKEmailLandingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKEmailLandingView.m; path = "左侧菜单/view/PKEmailLandingView.m"; sourceTree = "<group>"; };
+		04ECEB4B1C4B8EDB003EEB11 /* RegistratViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistratViewController.h; path = "注册/RegistratViewController.h"; sourceTree = "<group>"; };
+		04ECEB4C1C4B8EDB003EEB11 /* RegistratViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistratViewController.m; path = "注册/RegistratViewController.m"; sourceTree = "<group>"; };
+		04ECEB631C4E267F003EEB11 /* RegistrationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationView.h; path = "注册/view/RegistrationView.h"; sourceTree = "<group>"; };
+		04ECEB641C4E267F003EEB11 /* RegistrationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationView.m; path = "注册/view/RegistrationView.m"; sourceTree = "<group>"; };
+		04ECEB6C1C4E6276003EEB11 /* PKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKSettingViewController.h; path = "2016.1.14 项目实战/设置/PKSettingViewController.h"; sourceTree = SOURCE_ROOT; };
+		04ECEB6D1C4E6276003EEB11 /* PKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKSettingViewController.m; path = "2016.1.14 项目实战/设置/PKSettingViewController.m"; sourceTree = SOURCE_ROOT; };
+		04ECEB6F1C4E62B4003EEB11 /* PKRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRadioViewController.h; path = "2016.1.14 项目实战/电台/PKRadioViewController.h"; sourceTree = SOURCE_ROOT; };
+		04ECEB701C4E62B4003EEB11 /* PKRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKRadioViewController.m; path = "2016.1.14 项目实战/电台/PKRadioViewController.m"; sourceTree = SOURCE_ROOT; };
+		04ECEB721C4E62EA003EEB11 /* PKReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKReadViewController.h; path = "2016.1.14 项目实战/阅读/PKReadViewController.h"; sourceTree = SOURCE_ROOT; };
+		04ECEB731C4E62EA003EEB11 /* PKReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKReadViewController.m; path = "2016.1.14 项目实战/阅读/PKReadViewController.m"; sourceTree = SOURCE_ROOT; };
+		04ECEB751C4E6330003EEB11 /* PKGoodProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKGoodProductsViewController.h; path = "2016.1.14 项目实战/良品/PKGoodProductsViewController.h"; sourceTree = SOURCE_ROOT; };
+		04ECEB761C4E6330003EEB11 /* PKGoodProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKGoodProductsViewController.m; path = "2016.1.14 项目实战/良品/PKGoodProductsViewController.m"; sourceTree = SOURCE_ROOT; };
+		04ECEB781C4E638B003EEB11 /* PKCommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKCommunityViewController.h; path = "2016.1.14 项目实战/社区/PKCommunityViewController.h"; sourceTree = SOURCE_ROOT; };
+		04ECEB791C4E638B003EEB11 /* PKCommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKCommunityViewController.m; path = "2016.1.14 项目实战/社区/PKCommunityViewController.m"; sourceTree = SOURCE_ROOT; };
+		04ECEB911C508A6F003EEB11 /* PKFragmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFragmentModel.h; sourceTree = "<group>"; };
+		04ECEB921C508A6F003EEB11 /* PKFragmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFragmentModel.m; sourceTree = "<group>"; };
+		04ECEB961C508A6F003EEB11 /* NSArray+PKFragmentCelHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PKFragmentCelHeight.h"; sourceTree = "<group>"; };
+		04ECEB971C508A6F003EEB11 /* NSArray+PKFragmentCelHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PKFragmentCelHeight.m"; sourceTree = "<group>"; };
+		04ECEB9C1C508BA3003EEB11 /* PKFragmentTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFragmentTable.h; sourceTree = "<group>"; };
+		04ECEB9D1C508BA3003EEB11 /* PKFragmentTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFragmentTable.m; sourceTree = "<group>"; };
+		04ECEB9E1C508BA3003EEB11 /* PKFragmentTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFragmentTableCell.h; sourceTree = "<group>"; };
+		04ECEB9F1C508BA3003EEB11 /* PKFragmentTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFragmentTableCell.m; sourceTree = "<group>"; };
+		04ECEBA21C508BE2003EEB11 /* PKFragmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFragmentViewController.h; sourceTree = "<group>"; };
+		04ECEBA31C508BE2003EEB11 /* PKFragmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFragmentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,9 +412,8 @@
 			isa = PBXGroup;
 			children = (
 				04E541E61C473154006B6BD1 /* iOSPianKe */,
-				04E541F11C473154006B6BD1 /* Main.storyboard */,
 				04E541F41C473154006B6BD1 /* Images.xcassets */,
-				04E541F61C473154006B6BD1 /* LaunchScreen.xib */,
+				04ECEB451C48DC3A003EEB11 /* LaunchScreen.xib */,
 				04E541E81C473154006B6BD1 /* Info.plist */,
 				04E545B51C47EE0F006B6BD1 /* PKLeft.plist */,
 				04E542001C473154006B6BD1 /* 2016.1.14 项目实战Tests */,
@@ -395,9 +437,16 @@
 				04E541EB1C473154006B6BD1 /* AppDelegate.h */,
 				04E541EC1C473154006B6BD1 /* AppDelegate.m */,
 				04E545771C47A479006B6BD1 /* PrefixHeader.pch */,
-				04E5440B1C477CE7006B6BD1 /* view */,
-				04E544041C477A3B006B6BD1 /* 首页 */,
-				04E543321C477505006B6BD1 /* 左侧菜单 */,
+				04ECEB301C48D023003EEB11 /* 登录 */,
+				04ECEB4A1C4B8E4A003EEB11 /* 注册 */,
+				04ECEB1B1C48CF0C003EEB11 /* 首页 */,
+				04ECEB1F1C48CF15003EEB11 /* 左侧菜单 */,
+				04ECEB6B1C4E622F003EEB11 /* 电台 */,
+				04ECEB691C4E61C0003EEB11 /* 设置 */,
+				04ECEB681C4E61BE003EEB11 /* 阅读 */,
+				04ECEB8F1C508A6F003EEB11 /* 碎片 */,
+				04ECEB671C4E61BB003EEB11 /* 良品 */,
+				04ECEB6A1C4E6202003EEB11 /* 社区 */,
 				04E542311C473512006B6BD1 /* 基类 */,
 				04E542E51C47434D006B6BD1 /* 工具类 */,
 				04E543361C4779F2006B6BD1 /* 开源库 */,
@@ -468,15 +517,6 @@
 				04E542FB1C47434D006B6BD1 /* ZJPNavigationController.m */,
 			);
 			path = "工具类";
-			sourceTree = "<group>";
-		};
-		04E543321C477505006B6BD1 /* 左侧菜单 */ = {
-			isa = PBXGroup;
-			children = (
-				04E5442B1C47950B006B6BD1 /* PKLeftViewController.h */,
-				04E5442C1C47950B006B6BD1 /* PKLeftViewController.m */,
-			);
-			name = "左侧菜单";
 			sourceTree = "<group>";
 		};
 		04E543361C4779F2006B6BD1 /* 开源库 */ = {
@@ -687,30 +727,6 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
-		04E544041C477A3B006B6BD1 /* 首页 */ = {
-			isa = PBXGroup;
-			children = (
-				04E544051C477A73006B6BD1 /* PKHomeViewController.h */,
-				04E544061C477A73006B6BD1 /* PKHomeViewController.m */,
-			);
-			name = "首页";
-			sourceTree = "<group>";
-		};
-		04E5440B1C477CE7006B6BD1 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				04E544081C477CE1006B6BD1 /* PKLeftHeadView.h */,
-				04E544091C477CE1006B6BD1 /* PKLeftHeadView.m */,
-				04E545741C47A14B006B6BD1 /* PKLeftTableView.h */,
-				04E545751C47A14B006B6BD1 /* PKLeftTableView.m */,
-				04E545B21C47C6E0006B6BD1 /* PKLeftTableViewCell.h */,
-				04E545B31C47C6E0006B6BD1 /* PKLeftTableViewCell.m */,
-				04E545B71C48971F006B6BD1 /* PKLeftMusicView.h */,
-				04E545B81C48971F006B6BD1 /* PKLeftMusicView.m */,
-			);
-			name = view;
-			sourceTree = "<group>";
-		};
 		04E5440C1C47895D006B6BD1 /* 侧边图片 */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,6 +800,171 @@
 				04E5459F1C47A5E3006B6BD1 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		04ECEB1B1C48CF0C003EEB11 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB1C1C48CF0C003EEB11 /* PKHomeViewController.h */,
+				04ECEB1D1C48CF0C003EEB11 /* PKHomeViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		04ECEB1F1C48CF15003EEB11 /* 左侧菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB381C48D5ED003EEB11 /* view */,
+				04ECEB201C48CF15003EEB11 /* PKLeftViewController.h */,
+				04ECEB211C48CF15003EEB11 /* PKLeftViewController.m */,
+			);
+			path = "左侧菜单";
+			sourceTree = "<group>";
+		};
+		04ECEB301C48D023003EEB11 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB311C48D081003EEB11 /* PKLandingViewController.h */,
+				04ECEB321C48D081003EEB11 /* PKLandingViewController.m */,
+				04ECEB341C48D0BA003EEB11 /* view */,
+			);
+			name = "登录";
+			sourceTree = "<group>";
+		};
+		04ECEB341C48D0BA003EEB11 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB351C48D0F2003EEB11 /* PKThirdLandingView.h */,
+				04ECEB361C48D0F2003EEB11 /* PKThirdLandingView.m */,
+				04ECEB471C48EE29003EEB11 /* PKEmailLandingView.h */,
+				04ECEB481C48EE29003EEB11 /* PKEmailLandingView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		04ECEB381C48D5ED003EEB11 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB391C48D5ED003EEB11 /* PKLeftHeadView.h */,
+				04ECEB3A1C48D5ED003EEB11 /* PKLeftHeadView.m */,
+				04ECEB3D1C48D5ED003EEB11 /* PKLeftTableView.h */,
+				04ECEB3E1C48D5ED003EEB11 /* PKLeftTableView.m */,
+				04ECEB3F1C48D5ED003EEB11 /* PKLeftTableViewCell.h */,
+				04ECEB401C48D5ED003EEB11 /* PKLeftTableViewCell.m */,
+				04ECEB3B1C48D5ED003EEB11 /* PKLeftMusicView.h */,
+				04ECEB3C1C48D5ED003EEB11 /* PKLeftMusicView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04ECEB4A1C4B8E4A003EEB11 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB4B1C4B8EDB003EEB11 /* RegistratViewController.h */,
+				04ECEB4C1C4B8EDB003EEB11 /* RegistratViewController.m */,
+				04ECEB4E1C4B8EE4003EEB11 /* view */,
+			);
+			name = "注册";
+			sourceTree = "<group>";
+		};
+		04ECEB4E1C4B8EE4003EEB11 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB631C4E267F003EEB11 /* RegistrationView.h */,
+				04ECEB641C4E267F003EEB11 /* RegistrationView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		04ECEB671C4E61BB003EEB11 /* 良品 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB751C4E6330003EEB11 /* PKGoodProductsViewController.h */,
+				04ECEB761C4E6330003EEB11 /* PKGoodProductsViewController.m */,
+			);
+			name = "良品";
+			path = "左侧菜单";
+			sourceTree = "<group>";
+		};
+		04ECEB681C4E61BE003EEB11 /* 阅读 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB721C4E62EA003EEB11 /* PKReadViewController.h */,
+				04ECEB731C4E62EA003EEB11 /* PKReadViewController.m */,
+			);
+			name = "阅读";
+			path = "左侧菜单";
+			sourceTree = "<group>";
+		};
+		04ECEB691C4E61C0003EEB11 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB6C1C4E6276003EEB11 /* PKSettingViewController.h */,
+				04ECEB6D1C4E6276003EEB11 /* PKSettingViewController.m */,
+			);
+			name = "设置";
+			path = "左侧菜单";
+			sourceTree = "<group>";
+		};
+		04ECEB6A1C4E6202003EEB11 /* 社区 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB781C4E638B003EEB11 /* PKCommunityViewController.h */,
+				04ECEB791C4E638B003EEB11 /* PKCommunityViewController.m */,
+			);
+			name = "社区";
+			path = "左侧菜单";
+			sourceTree = "<group>";
+		};
+		04ECEB6B1C4E622F003EEB11 /* 电台 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB6F1C4E62B4003EEB11 /* PKRadioViewController.h */,
+				04ECEB701C4E62B4003EEB11 /* PKRadioViewController.m */,
+			);
+			name = "电台";
+			path = "左侧菜单";
+			sourceTree = "<group>";
+		};
+		04ECEB8F1C508A6F003EEB11 /* 碎片 */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB9B1C508BA3003EEB11 /* view */,
+				04ECEB901C508A6F003EEB11 /* model */,
+				04ECEB951C508A6F003EEB11 /* tool */,
+				04ECEBA21C508BE2003EEB11 /* PKFragmentViewController.h */,
+				04ECEBA31C508BE2003EEB11 /* PKFragmentViewController.m */,
+			);
+			path = "碎片";
+			sourceTree = "<group>";
+		};
+		04ECEB901C508A6F003EEB11 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB911C508A6F003EEB11 /* PKFragmentModel.h */,
+				04ECEB921C508A6F003EEB11 /* PKFragmentModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04ECEB951C508A6F003EEB11 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB961C508A6F003EEB11 /* NSArray+PKFragmentCelHeight.h */,
+				04ECEB971C508A6F003EEB11 /* NSArray+PKFragmentCelHeight.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		04ECEB9B1C508BA3003EEB11 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04ECEB9C1C508BA3003EEB11 /* PKFragmentTable.h */,
+				04ECEB9D1C508BA3003EEB11 /* PKFragmentTable.m */,
+				04ECEB9E1C508BA3003EEB11 /* PKFragmentTableCell.h */,
+				04ECEB9F1C508BA3003EEB11 /* PKFragmentTableCell.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -872,10 +1053,9 @@
 				04E5441D1C47895D006B6BD1 /* 写评论@2x.png in Resources */,
 				04E544271C47895D006B6BD1 /* 设置@2x.png in Resources */,
 				04E544211C47895D006B6BD1 /* 收藏@2x.png in Resources */,
-				04E541F31C473154006B6BD1 /* Main.storyboard in Resources */,
 				04E5441E1C47895D006B6BD1 /* 头像@2x.png in Resources */,
 				04E5442A1C47895D006B6BD1 /* 首页@2x.png in Resources */,
-				04E541F81C473154006B6BD1 /* LaunchScreen.xib in Resources */,
+				04ECEB461C48DC3A003EEB11 /* LaunchScreen.xib in Resources */,
 				04E5441F1C47895D006B6BD1 /* 搜索@2x.png in Resources */,
 				04E544261C47895D006B6BD1 /* 良品@2x.png in Resources */,
 				04E5441C1C47895D006B6BD1 /* 下载@2x.png in Resources */,
@@ -903,17 +1083,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ECEB711C4E62B4003EEB11 /* PKRadioViewController.m in Sources */,
 				04E545A61C47A5E3006B6BD1 /* AFURLConnectionOperation.m in Sources */,
 				04E545AE1C47A5E3006B6BD1 /* UIImageView+AFNetworking.m in Sources */,
 				04E542FF1C47434D006B6BD1 /* UIBarButtonItem+Helper.m in Sources */,
 				04E545AD1C47A5E3006B6BD1 /* UIButton+AFNetworking.m in Sources */,
-				04E544071C477A73006B6BD1 /* PKHomeViewController.m in Sources */,
+				04ECEB1E1C48CF0C003EEB11 /* PKHomeViewController.m in Sources */,
 				04E543DC1C4779F3006B6BD1 /* MJRefreshStateHeader.m in Sources */,
-				04E545761C47A14B006B6BD1 /* PKLeftTableView.m in Sources */,
 				04E543E11C4779F3006B6BD1 /* MJDIYBackFooter.m in Sources */,
 				04E543F71C4779F3006B6BD1 /* UIImage+WebP.m in Sources */,
+				04ECEB4D1C4B8EDB003EEB11 /* RegistratViewController.m in Sources */,
 				04E543041C47434D006B6BD1 /* UIView+Toast.m in Sources */,
-				04E5440A1C477CE1006B6BD1 /* PKLeftHeadView.m in Sources */,
+				04ECEB771C4E6330003EEB11 /* PKGoodProductsViewController.m in Sources */,
+				04ECEB441C48D5ED003EEB11 /* PKLeftTableViewCell.m in Sources */,
 				04E545A51C47A5E3006B6BD1 /* AFSecurityPolicy.m in Sources */,
 				04E542FD1C47434D006B6BD1 /* JPRefreshView.m in Sources */,
 				04E543021C47434D006B6BD1 /* UIImageView+SDWedImage.m in Sources */,
@@ -922,13 +1104,16 @@
 				04E543D91C4779F3006B6BD1 /* MJRefreshBackStateFooter.m in Sources */,
 				04E543CF1C4779F3006B6BD1 /* MJRefreshAutoFooter.m in Sources */,
 				04E543D31C4779F3006B6BD1 /* MJRefreshHeader.m in Sources */,
+				04ECEB371C48D0F2003EEB11 /* PKThirdLandingView.m in Sources */,
 				04E543D41C4779F3006B6BD1 /* MJRefreshAutoGifFooter.m in Sources */,
 				04E545A01C47A5E3006B6BD1 /* AFDownloadRequestOperation.m in Sources */,
-				04E545B41C47C6E0006B6BD1 /* PKLeftTableViewCell.m in Sources */,
+				04ECEB331C48D081003EEB11 /* PKLandingViewController.m in Sources */,
+				04ECEB981C508A6F003EEB11 /* PKFragmentModel.m in Sources */,
 				04E543EC1C4779F3006B6BD1 /* NSData+ImageContentType.m in Sources */,
-				04E5442D1C47950B006B6BD1 /* PKLeftViewController.m in Sources */,
 				04E545A81C47A5E3006B6BD1 /* AFURLResponseSerialization.m in Sources */,
+				04ECEB411C48D5ED003EEB11 /* PKLeftHeadView.m in Sources */,
 				04E543CA1C4779F3006B6BD1 /* MASViewAttribute.m in Sources */,
+				04ECEB651C4E267F003EEB11 /* RegistrationView.m in Sources */,
 				04E545AC1C47A5E3006B6BD1 /* UIAlertView+AFNetworking.m in Sources */,
 				04E543C91C4779F3006B6BD1 /* MASLayoutConstraint.m in Sources */,
 				04E543E41C4779F3006B6BD1 /* MJRefreshConst.m in Sources */,
@@ -937,12 +1122,15 @@
 				04E543DD1C4779F3006B6BD1 /* MJChiBaoZiFooter.m in Sources */,
 				04E543CD1C4779F3006B6BD1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				04E543E91C4779F3006B6BD1 /* RESideMenu.m in Sources */,
+				04ECEBA11C508BA3003EEB11 /* PKFragmentTableCell.m in Sources */,
 				04E543DE1C4779F3006B6BD1 /* MJChiBaoZiFooter2.m in Sources */,
 				04E543F31C4779F3006B6BD1 /* SDWebImagePrefetcher.m in Sources */,
 				04E543C81C4779F3006B6BD1 /* MASConstraintMaker.m in Sources */,
 				04E543EE1C4779F3006B6BD1 /* SDWebImageCompat.m in Sources */,
+				04ECEB491C48EE29003EEB11 /* PKEmailLandingView.m in Sources */,
 				04E545A21C47A5E3006B6BD1 /* AFHTTPRequestOperationManager.m in Sources */,
 				04E541ED1C473154006B6BD1 /* AppDelegate.m in Sources */,
+				04ECEB9A1C508A6F003EEB11 /* NSArray+PKFragmentCelHeight.m in Sources */,
 				04E543051C47434D006B6BD1 /* ZJPBaseHttpTool.m in Sources */,
 				04E542FE1C47434D006B6BD1 /* NSString+Helper.m in Sources */,
 				04E545AB1C47A5E3006B6BD1 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -952,17 +1140,24 @@
 				04E545A41C47A5E3006B6BD1 /* AFNetworkReachabilityManager.m in Sources */,
 				04E543EF1C4779F3006B6BD1 /* SDWebImageDecoder.m in Sources */,
 				04E545A11C47A5E3006B6BD1 /* AFHTTPRequestOperation.m in Sources */,
+				04ECEB741C4E62EA003EEB11 /* PKReadViewController.m in Sources */,
 				04E543D21C4779F3006B6BD1 /* MJRefreshFooter.m in Sources */,
 				04E543D51C4779F3006B6BD1 /* MJRefreshAutoNormalFooter.m in Sources */,
 				04E543DF1C4779F3006B6BD1 /* MJChiBaoZiHeader.m in Sources */,
 				04E545A71C47A5E3006B6BD1 /* AFURLRequestSerialization.m in Sources */,
+				04ECEBA41C508BE2003EEB11 /* PKFragmentViewController.m in Sources */,
+				04ECEB6E1C4E6276003EEB11 /* PKSettingViewController.m in Sources */,
 				04E542341C4738EF006B6BD1 /* PKBaseViewController.m in Sources */,
+				04ECEB221C48CF15003EEB11 /* PKLeftViewController.m in Sources */,
 				04E543D01C4779F3006B6BD1 /* MJRefreshBackFooter.m in Sources */,
 				04E543061C47434D006B6BD1 /* ZJPNavigationController.m in Sources */,
+				04ECEB431C48D5ED003EEB11 /* PKLeftTableView.m in Sources */,
+				04ECEB7A1C4E638B003EEB11 /* PKCommunityViewController.m in Sources */,
 				04E543F81C4779F3006B6BD1 /* UIImageView+HighlightedWebCache.m in Sources */,
 				04E543E51C4779F3006B6BD1 /* UIScrollView+MJExtension.m in Sources */,
 				04E543031C47434D006B6BD1 /* UINavigationItem+BackItem.m in Sources */,
 				04E543DA1C4779F3006B6BD1 /* MJRefreshGifHeader.m in Sources */,
+				04ECEBA01C508BA3003EEB11 /* PKFragmentTable.m in Sources */,
 				04E545B01C47A5E3006B6BD1 /* UIRefreshControl+AFNetworking.m in Sources */,
 				04E545B11C47A5E3006B6BD1 /* UIWebView+AFNetworking.m in Sources */,
 				04E543FA1C4779F3006B6BD1 /* UIView+WebCacheOperation.m in Sources */,
@@ -977,7 +1172,7 @@
 				04E543C61C4779F3006B6BD1 /* MASCompositeConstraint.m in Sources */,
 				04E543E21C4779F3006B6BD1 /* MJDIYHeader.m in Sources */,
 				04E543CC1C4779F3006B6BD1 /* NSArray+MASAdditions.m in Sources */,
-				04E545B91C48971F006B6BD1 /* PKLeftMusicView.m in Sources */,
+				04ECEB421C48D5ED003EEB11 /* PKLeftMusicView.m in Sources */,
 				04E543001C47434D006B6BD1 /* UIColor+Extension.m in Sources */,
 				04E541EA1C473154006B6BD1 /* main.m in Sources */,
 				04E543E61C4779F3006B6BD1 /* UIScrollView+MJRefresh.m in Sources */,
@@ -1013,27 +1208,6 @@
 			targetProxy = 04E541FE1C473154006B6BD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		04E541F11C473154006B6BD1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04E541F21C473154006B6BD1 /* Base */,
-			);
-			name = Main.storyboard;
-			path = "2016.1.14 项目实战";
-			sourceTree = "<group>";
-		};
-		04E541F61C473154006B6BD1 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04E541F71C473154006B6BD1 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = "2016.1.14 项目实战";
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04E542051C473154006B6BD1 /* Debug */ = {
@@ -1193,6 +1367,7 @@
 				04E542091C473154006B6BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E5420A1C473154006B6BD1 /* Build configuration list for PBXNativeTarget "2016.1.14 项目实战Tests" */ = {
 			isa = XCConfigurationList;
@@ -1201,6 +1376,7 @@
 				04E5420C1C473154006B6BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

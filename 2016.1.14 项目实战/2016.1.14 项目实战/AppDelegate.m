@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 #import "RESideMenu.h"//抽屉第三方
-#import "PKLeftViewController.h"
-#import "PKHomeViewController.h"
-#import "ZJPNavigationController.h"
+#import "PKLeftViewController.h"//首页
+#import "PKHomeViewController.h"//左菜单
+#import "ZJPNavigationController.h"//自定义的nav
 @interface AppDelegate ()
 
 @end
@@ -21,18 +21,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ZJPNavigationController *navigationController = [[ZJPNavigationController alloc] initWithRootViewController:[[PKBaseViewController alloc] init]];
-    PKBaseViewController *leftMenuViewController = [[PKBaseViewController alloc] init];
+    ZJPNavigationController *navigationController = [[ZJPNavigationController alloc] initWithRootViewController:[[PKHomeViewController alloc] init]];
+    PKLeftViewController *leftMenuViewController = [[PKLeftViewController alloc] init];
     
     RESideMenu *sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:navigationController
                                                                     leftMenuViewController:leftMenuViewController
                                                                    rightMenuViewController:nil];
     
     
-    sideMenuViewController.backgroundImage = [UIImage imageNamed:@"Stars"];
+//    sideMenuViewController.backgroundImage = [UIImage imageNamed:@"Stars"];
     sideMenuViewController.menuPreferredStatusBarStyle = 1; // UIStatusBarStyleLightContent
     sideMenuViewController.contentViewScaleValue = 1;//缩放比列
-    sideMenuViewController.contentViewInPortraitOffsetCenterX = 120;//偏移量
+    sideMenuViewController.contentViewInPortraitOffsetCenterX = VIEW_WIDTH/2-45;//偏移量
     self.window.rootViewController = sideMenuViewController;
     
     self.window.backgroundColor = [UIColor whiteColor];

@@ -37,6 +37,7 @@
     [self addSubview:s];
     self.s = s;
     
+    
     // loading
     UIActivityIndicatorView *loading = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     [self addSubview:loading];
@@ -49,8 +50,8 @@
     [super placeSubviews];
     
     self.label.frame = self.bounds;
-    self.s.center = CGPointMake(self.mj_w - 20, self.mj_h - 20);
-    
+    self.s.center = CGPointMake(self.mj_w - 20,self.mj_h +20);
+
     self.loading.center = CGPointMake(30, self.mj_h * 0.5);
 }
 
@@ -100,5 +101,4 @@
             break;
     }
 }
-
 @end

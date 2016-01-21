@@ -52,7 +52,27 @@
     }];
     
 }
-
+- (void)POSTHttpRequest:(NSString *)url
+                    dic:(NSDictionary *)dic
+           successBalck:(HttpSuccessBlock)RequestSuccess
+             errorBlock:(HttpErrorBlock)RequestError
+{
+    WS(weakSelf);
+    //显示等待动画
+    [JPRefreshView showJPRefreshFromView:self.view];
+    [ZJPBaseHttpTool postWithPath:url params:dic success:^(id JSON) {
+        if (RequestSuccess) {
+            RequestSuccess(JSON);
+        }
+        //移除等待动画
+        [JPRefreshView removeJPRefreshFromView:weakSelf.view];
+    } failure:^(NSError *error) {
+        if (RequestError) {
+            RequestError(error);
+        }
+        [JPRefreshView removeJPRefreshFromView:weakSelf.view];
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
